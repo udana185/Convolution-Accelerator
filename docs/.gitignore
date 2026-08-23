@@ -1,0 +1,61 @@
+# Quartus Prime project/build artifacts
+*.qws
+db/
+incremental_db/
+output_files/
+simulation/
+*.rpt
+*.summary
+*.smsg
+*.done
+*.jdi
+*.pin
+*.sof
+*.pof
+*.jam
+*.jbc
+*.ekp
+*.sld
+*.qarlog
+*.qmsg
+*.map
+*.slf
+*.cmp
+*.htm
+*.eqn
+*.pjf
+greybox_tmp/
+hc_output/
+PLLJ_*.v
+PLLJ_*.ppf
+c5_pin_model_dump.txt
+
+# ModelSim / QuestaSim
+work/
+*.wlf
+transcript
+vsim.wlf
+modelsim.ini
+*.vstf
+*.mti
+
+# General EDA / simulation junk
+*.log
+*.jou
+*.vcd
+*.fsdb
+*.wdb
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+
+# Compiled binaries (if you're also building any C/C++ firmware for the RV32I core)
+*.o
+*.elf
+*.bin
+*.hex
+*.out
