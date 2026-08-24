@@ -28,7 +28,7 @@ The design is being built incrementally rather than attempted all at once:
 
 ## Architecture (current / planned)
 
-- **Core:** RV32I RISC-V CPU (existing open source core for first implementation)
+- **Core:** RV32I RISC-V CPU - PicoRV32 
 - **Accelerator:** [add: MAC array size / kernel size supported / structure],
   memory-mapped and controlled from the RV32I core
 - **Memory:** Shared on-board BRAM, accessible by both CPU and accelerator,
